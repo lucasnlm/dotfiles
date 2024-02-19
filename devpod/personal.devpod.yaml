@@ -28,7 +28,7 @@ repositories:
     repo: https://github.com/so-fancy/diff-so-fancy.git
     update: true
   - dest: /tmp/dotfiles
-    repo: https://github.com/yhartanto/dotfiles.git
+    repo: https://github.com/lucasnlm/dotfiles.git
     update: true
 
 tasks:
