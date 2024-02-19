@@ -121,4 +121,23 @@ git config --global interactive.diffFilter "diff-so-fancy --patch"
 
 eval "$(direnv hook zsh)"
 
-alias update_diff="git add . && git commit --amend --no-edit && arc diff --no-amend"
+alias gst='git status'
+alias gl='git pull'
+alias gp='git push'
+alias gd='git diff | mate'
+alias gau='git add --update'
+alias gadd='git add --update'
+alias gc='git commit -v'
+alias gca='git commit -v -a'
+alias gcp='git cherry-pick'
+alias gb='git branch'
+alias gba='git branch -a'
+alias gco='git checkout'
+alias gsw='git switch'
+alias gswb='git switch -c'
+alias gcob='git checkout -b'
+alias gcot='git checkout -t'
+alias gcotb='git checkout --track -b'
+alias gr='git restore'
+alias glog='git log'
+alias glogp='git log --pretty=format:"%h %s" --graph'
