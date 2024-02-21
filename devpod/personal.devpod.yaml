@@ -1,6 +1,3 @@
-shell: zsh
-flavor: android
-region: brazil
 packages:
   - catimg
   - fd-find
@@ -11,15 +8,6 @@ packages:
   - neofetch
   - ranger
   - screen
-
-ide:
-  jetbrains:
-    plugins:
-      - 7380 # ADB Idea
-      - 22989 # Android
-      - 7826 # Buck for Android
-      - 17718 # Copilot
-      - 10080 # Rainbow
 
 repositories:
   - dest: /tmp/powerlevel10k # Temp folder because oh-my-zsh wants empty .oh-my-zsh
